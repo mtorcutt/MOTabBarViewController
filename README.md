@@ -18,3 +18,9 @@ secondNavigationController.tabBarItem.image        = [UIImage imageNamed:@"Examp
 
 tabBarViewController.viewControllers = @[ firstNavigationController, secondNavigationController ];
 ```
+
+## Delegate Methods
+
+######```- (void)MOTabBarViewControllerDidSelectIndex:(NSInteger)index;```
+Anytime a tab bar is selected, this method will return the selected index.
+
