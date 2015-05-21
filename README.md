@@ -16,5 +16,5 @@ UIViewController *secondViewController = [UIViewController new];
 UINavigationController *secondNavigationController = [[UINavigationController alloc] initWithRootViewController:secondViewController];
 secondNavigationController.tabBarItem.image        = [UIImage imageNamed:@"ExampleImageTwo"];
 
-self.tabBarViewController.viewControllers = @[ firstNavigationController, secondNavigationController ];
+tabBarViewController.viewControllers = @[ firstNavigationController, secondNavigationController ];
 ```
