@@ -25,4 +25,4 @@ tabBarViewController.viewControllers = @[ firstNavigationController, secondNavig
 Anytime a tab bar is selected, this method will return the selected index.
 
 ## Example Screenshot
-
+![Screenshot](http://i.imgur.com/kOP2R32.png)
