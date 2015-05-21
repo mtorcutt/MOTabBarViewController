@@ -24,3 +24,5 @@ tabBarViewController.viewControllers = @[ firstNavigationController, secondNavig
 ######```- (void)MOTabBarViewControllerDidSelectIndex:(NSInteger)index;```
 Anytime a tab bar is selected, this method will return the selected index.
 
+## Example Screenshot
+
