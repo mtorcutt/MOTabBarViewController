@@ -1,6 +1,6 @@
 # Usage 
 
-## Intialize Tab Bar with View Controllers
+## Initialize Tab Bar with View Controllers
 
 ```
 MOTabBarViewController *tabBarViewController = [MOTabBarViewController new];
