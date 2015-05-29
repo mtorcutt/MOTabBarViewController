@@ -32,8 +32,8 @@
 ///------------------------------------------------
 
 /**
- 'tabBar' contains the tabs associated with each 
- view controller. The tab class used is MOTabBarItem.
+ * tabBar contains the tabs associated with each 
+ * view controller. The tab class used is MOTabBarItem.
  */
 @property (strong, nonatomic) UITabBar *tabBar;
 
@@ -43,17 +43,17 @@
 ///------------------------------------------------
 
 /**
- 'viewControllers' are the tab bar child view controllers
+ * viewControllers are the tab bar child view controllers
  */
 @property (nonatomic, copy) NSArray *viewControllers;
 
 /**
- 'selectedViewController' is the currently selected tab child view controller
+ * selectedViewController is the currently selected tab child view controller
  */
 @property (nonatomic, readonly) UIViewController *selectedViewController;
 
 /**
- 'selectedIndex' is the currently selected tab index
+ * selectedIndex is the currently selected tab index
  */
 @property (nonatomic, assign) NSUInteger selectedIndex;
 
@@ -86,8 +86,8 @@
 ///------------------------------------------------
 
 /**
- 'delegate' is the tab bars delegate to relay 
- change messages.
+ * delegate is the tab bars delegate to relay 
+ * change messages.
  */
 @property (weak, nonatomic) id<MOTabBarViewControllerDelegate> delegate;
 
